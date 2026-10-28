@@ -1,0 +1,51 @@
+:root {
+  --pt-bg-page: #090d16;
+  --pt-bg-surface: #111827;
+  --pt-bg-surface-elevated: #1f2937;
+  --pt-bg-surface-subtle: #0d131f;
+  --pt-border: #374151;
+  --pt-border-active: #60a5fa;
+
+  --pt-text-primary: #f9fafb;
+  --pt-text-secondary: #9ca3af;
+  --pt-text-muted: #6b7280;
+
+  --pt-color-primary: #2563eb;
+  --pt-color-primary-hover: #1d4ed8;
+  --pt-color-accent: #06b6d4;
+
+  --pt-color-critical: #ef4444;
+  --pt-color-critical-surface: #450a0a;
+  --pt-color-expedited: #f59e0b;
+  --pt-color-expedited-surface: #451a03;
+  --pt-color-standard: #10b981;
+  --pt-color-standard-surface: #064e3b;
+
+  --pt-focus-ring: #38bdf8;
+  --pt-radius-sm: 4px;
+  --pt-radius-md: 8px;
+  --pt-radius-lg: 12px;
+}
+
+[data-theme="light"] {
+  --pt-bg-page: #f3f4f6;
+  --pt-bg-surface: #ffffff;
+  --pt-bg-surface-elevated: #ffffff;
+  --pt-bg-surface-subtle: #f9fafb;
+  --pt-border: #d1d5db;
+  --pt-border-active: #2563eb;
+  --pt-text-primary: #111827;
+  --pt-text-secondary: #4b5563;
+  --pt-text-muted: #9ca3af;
+}
+
+[data-theme="high-contrast"] {
+  --pt-bg-page: #000000;
+  --pt-bg-surface: #0a0a0a;
+  --pt-bg-surface-elevated: #141414;
+  --pt-border: #ffffff;
+  --pt-text-primary: #ffffff;
+  --pt-text-secondary: #ffff00;
+  --pt-color-primary: #ffff00;
+  --pt-focus-ring: #00ffff;
+}

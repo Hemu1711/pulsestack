@@ -1,0 +1,17 @@
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\bin\Debug\net8.0\PulseTrack.Infrastructure.deps.json
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\bin\Debug\net8.0\PulseTrack.Infrastructure.dll
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\bin\Debug\net8.0\PulseTrack.Infrastructure.pdb
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\bin\Debug\net8.0\PulseTrack.Application.dll
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\bin\Debug\net8.0\PulseTrack.Domain.dll
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\bin\Debug\net8.0\PulseTrack.Domain.pdb
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\bin\Debug\net8.0\PulseTrack.Application.pdb
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\obj\Debug\net8.0\PulseTrack.Infrastructure.csproj.AssemblyReference.cache
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\obj\Debug\net8.0\PulseTrack.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\obj\Debug\net8.0\PulseTrack.Infrastructure.AssemblyInfoInputs.cache
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\obj\Debug\net8.0\PulseTrack.Infrastructure.AssemblyInfo.cs
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\obj\Debug\net8.0\PulseTrack.Infrastructure.csproj.CoreCompileInputs.cache
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\obj\Debug\net8.0\PulseTra.3F56213C.Up2Date
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\obj\Debug\net8.0\PulseTrack.Infrastructure.dll
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\obj\Debug\net8.0\refint\PulseTrack.Infrastructure.dll
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\obj\Debug\net8.0\PulseTrack.Infrastructure.pdb
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Infrastructure\obj\Debug\net8.0\ref\PulseTrack.Infrastructure.dll

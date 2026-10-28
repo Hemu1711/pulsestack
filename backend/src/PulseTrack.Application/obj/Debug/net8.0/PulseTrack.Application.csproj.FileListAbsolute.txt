@@ -1,0 +1,15 @@
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\bin\Debug\net8.0\PulseTrack.Application.deps.json
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\bin\Debug\net8.0\PulseTrack.Application.dll
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\bin\Debug\net8.0\PulseTrack.Application.pdb
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\bin\Debug\net8.0\PulseTrack.Domain.dll
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\bin\Debug\net8.0\PulseTrack.Domain.pdb
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\obj\Debug\net8.0\PulseTrack.Application.csproj.AssemblyReference.cache
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\obj\Debug\net8.0\PulseTrack.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\obj\Debug\net8.0\PulseTrack.Application.AssemblyInfoInputs.cache
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\obj\Debug\net8.0\PulseTrack.Application.AssemblyInfo.cs
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\obj\Debug\net8.0\PulseTrack.Application.csproj.CoreCompileInputs.cache
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\obj\Debug\net8.0\PulseTra.15A6A9B5.Up2Date
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\obj\Debug\net8.0\PulseTrack.Application.dll
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\obj\Debug\net8.0\refint\PulseTrack.Application.dll
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\obj\Debug\net8.0\PulseTrack.Application.pdb
+D:\All Learnings\portfolio\02-pulsetrack-fleet-ops\backend\src\PulseTrack.Application\obj\Debug\net8.0\ref\PulseTrack.Application.dll

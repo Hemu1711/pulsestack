@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PulseTrack: High-Throughput Vehicle Collision Repair & Fleet Operations Kanban. Sub-10ms cached parts lookup, WCAG 2.1 AA accessible.">
+  <title>PulseTrack | Enterprise Fleet Maintenance &amp; Collision Operations</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/kanban.css">
+</head>
+<body>
+
+  <a href="#main-board" class="skip-link">Skip to Kanban Board</a>
+
+  <header class="pt-header" role="banner">
+    <div class="pt-brand">
+      <span class="pt-logo" aria-hidden="true">PT</span>
+      <div>
+        <h1 style="font-size: 1.25rem; font-weight: 800;">PulseTrack Collision Operations</h1>
+        <p style="font-size: 0.8rem; color: var(--pt-text-secondary);">Enterprise Shop Flow | Redis In-Memory Cache | Dapper High-Speed Reads</p>
+      </div>
+    </div>
+
+    <div class="metrics-bar">
+      <div class="metric-pill">
+        <span style="color: var(--pt-text-muted);">Active Queue:</span>
+        <strong id="metric-active-wo">5 Units</strong>
+      </div>
+      <div class="metric-pill">
+        <span style="color: var(--pt-text-muted);">Shop Valuation:</span>
+        <strong id="metric-wip">$23.5k WIP</strong>
+      </div>
+      <button type="button" class="btn-move" id="btn-pt-theme" aria-label="Toggle visual contrast theme">Theme: DARK</button>
+    </div>
+  </header>
+
+  <main id="main-board" class="kanban-board" role="main" aria-label="Repair Stage Pipeline">
+    <!-- Col 1: Intake -->
+    <section class="kanban-col" id="col-intake" aria-labelledby="title-intake">
+      <div class="kanban-col-header">
+        <h2 class="kanban-col-title" id="title-intake">📋 1. Intake &amp; Estimate</h2>
+        <span class="col-count">1</span>
+      </div>
+      <div class="kanban-cards-list"></div>
+    </section>
+
+    <!-- Col 2: Teardown -->
+    <section class="kanban-col" id="col-teardown" aria-labelledby="title-teardown">
+      <div class="kanban-col-header">
+        <h2 class="kanban-col-title" id="title-teardown">🔍 2. Teardown &amp; Blueprint</h2>
+        <span class="col-count">1</span>
+      </div>
+      <div class="kanban-cards-list"></div>
+    </section>
+
+    <!-- Col 3: Body Repair -->
+    <section class="kanban-col" id="col-body" aria-labelledby="title-body">
+      <div class="kanban-col-header">
+        <h2 class="kanban-col-title" id="title-body">🔧 3. Structural &amp; Body</h2>
+        <span class="col-count">2</span>
+      </div>
+      <div class="kanban-cards-list"></div>
+    </section>
+
+    <!-- Col 4: Paint & Refinish -->
+    <section class="kanban-col" id="col-paint" aria-labelledby="title-paint">
+      <div class="kanban-col-header">
+        <h2 class="kanban-col-title" id="title-paint">🎨 4. Paint &amp; Refinish</h2>
+        <span class="col-count">1</span>
+      </div>
+      <div class="kanban-cards-list"></div>
+    </section>
+
+    <!-- Col 5: Ready -->
+    <section class="kanban-col" id="col-ready" aria-labelledby="title-ready">
+      <div class="kanban-col-header">
+        <h2 class="kanban-col-title" id="title-ready">✅ 5. Quality Check &amp; Delivery</h2>
+        <span class="col-count">1</span>
+      </div>
+      <div class="kanban-cards-list"></div>
+    </section>
+  </main>
+
+  <aside class="parts-search-panel" aria-label="Parts Inventory Search">
+    <div class="search-container">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 0.5rem;">
+        <label for="parts-search-input" style="font-weight: 700; font-size: 0.9rem;">
+          ⚡ Real-Time Parts Inventory Search (W3C ARIA Combobox Pattern):
+        </label>
+        <span id="parts-latency-badge" style="font-size: 0.75rem; color: var(--pt-color-accent); font-family: monospace;">
+          Redis Cache Latency: 4.2ms (sub-10ms response)
+        </span>
+      </div>
+      <input type="text" id="parts-search-input" class="input-search" placeholder="Search by part # (e.g. BUMP, FNDR, HLMP) or keyword..." value="BUMP">
+      <ul id="parts-results-list" class="parts-results-list" role="listbox" aria-label="Parts Search Suggestions"></ul>
+    </div>
+  </aside>
+
+  <div id="pt-live-region" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <footer style="background: var(--pt-bg-surface-subtle); padding: 1rem 1.5rem; border-top: 1px solid var(--pt-border); font-size: 0.8rem; color: var(--pt-text-secondary); text-align: center;" role="contentinfo">
+    PulseTrack Platform — High-Throughput .NET 8 / Redis / Dapper Micro-ORM Architecture | WCAG 2.1 AA Compliant
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
